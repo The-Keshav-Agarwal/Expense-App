@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #121212;
+  color:#E5E5E5 ;
+}
+
+nav{
+  text-align: center;
+  padding: 20px;
+}
+ul{
+  list-style-type: none;
+}
+.list li,.add-item input,.add-item button,.empty{
+  padding: 5px;
+  padding-left: 30px;
+  margin: 13px auto;
+  font-size: 19px;
+  background-color: #1d1d1d;
+  max-width: 450px;
+  font-weight: bold;
+}
+.list{
+  margin: auto;
+}
+.list li .item-name{
+  font-size: 17px;
+  opacity: .8;
+  margin: 3px 0;
+  font-weight: normal;
+}
+
+.add-item {
+  margin-bottom: 50px;
+}
+.add-item input,.add-item button{
+  outline: none;
+  border:none;
+  display: block;
+  padding: 5px;
+  padding-left: 10px;
+  color:white;
+}
+.add-item button{
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color:white;
+  color: #121212;
+}
+.listOfItem{
+  display: flex;
+  justify-content: space-between;
+}
+.listOfItem button{
+  margin-top: 15px;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding-right: 10px;
+}
+.empty{
+  padding: 12px;
+  font-size: 20px;
+}
+.list .total-amount{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.amount{
+  margin-right: 20px;
+}
